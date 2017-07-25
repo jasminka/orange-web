@@ -584,3 +584,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 section.downloads {
     padding-bottom: 50px;
 }
+.schedule h5 {
+    margin-top: 20px;
+}
+img, embed,
+object, video {
+    max-width: 100%;
+}
+@media handheld and (max-width: 500px),
+screen and (max-device-width: 500px),
+screen and (max-width: 500px) {
+    .one {
+        display: flex;
+        justify-content: center;
+        float: none;
+        width: 100%;
+        overflow: hidden;
+    }
+    .panel-heading, .two p, footer{
+        text-align: center;
+    }
+}
+.wrapper {
+    display: inline-block;
+    overflow: auto;
+}
